@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#d4d2ca"/><stop offset="1" stop-color="#aeb8b6"/></linearGradient><linearGradient id="m" x2="0" y2="1"><stop stop-color="#526573"/><stop offset="1" stop-color="#1b3345"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#bg)"/><path d="M0 490h900v110H0z" fill="#8b9693"/>
+<rect x="105" y="355" width="685" height="35" rx="6" fill="#1b2e3c"/><rect x="150" y="389" width="22" height="195" fill="#243747"/><rect x="725" y="389" width="22" height="195" fill="#243747"/>
+<path d="M215 240h370q50 0 50 55v59H215z" fill="url(#m)"/><path d="M250 214h325q40 0 40 26v25H250z" fill="#435766"/><rect x="560" y="272" width="85" height="65" rx="8" fill="#c2c9c8"/><rect x="635" y="310" width="13" height="94" fill="#233746"/><path d="M642 365v68" stroke="#d4a85f" stroke-width="5"/><path d="M165 355h565" stroke="#d0d6d5" stroke-width="8"/><circle cx="274" cy="298" r="35" fill="#233746" stroke="#a9b5b8" stroke-width="11"/><circle cx="274" cy="298" r="9" fill="#d0d6d5"/>
+<path d="M300 350h200" stroke="#a2b4bd" stroke-width="5"/><text x="430" y="297" text-anchor="middle" fill="#e3e8e6" font-family="Arial,sans-serif" font-size="27" letter-spacing="4">INDUSTRIAL</text><text x="430" y="327" text-anchor="middle" fill="#d1b47e" font-family="Arial,sans-serif" font-size="18" letter-spacing="3">SEWING EQUIPMENT</text>
+</svg>
