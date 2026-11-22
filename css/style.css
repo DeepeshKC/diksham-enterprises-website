@@ -967,3 +967,38 @@ button:focus-visible {
         height: 390px;
     }
 }
+
+/* Balanced photo framing — second refinement */
+/* The machine is transparent and nearly square; make it visually prominent in the landscape card. */
+.business-image:has(img[src*="kansai-special-industrial-sewing-machine.webp"]) {
+  background: #f2f0eb;
+}
+.business-image img[src*="kansai-special-industrial-sewing-machine.webp"] {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.24);
+  transform-origin: center center;
+}
+.business-card:hover .business-image img[src*="kansai-special-industrial-sewing-machine.webp"] {
+  transform: scale(1.28);
+}
+/* MITH: clean white editorial portrait, with no beige side panels. */
+.brand-image:has(img[src*="mith-23oz-japanese-selvedge-denim.webp"]) {
+  background: #fff;
+  height: 590px;
+}
+.brand-image img[src*="mith-23oz-japanese-selvedge-denim.webp"] {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+}
+@media(max-width:780px) {
+  .brand-image:has(img[src*="mith-23oz-japanese-selvedge-denim.webp"]) { height: 550px; }
+}
+@media(max-width:480px) {
+  .brand-image:has(img[src*="mith-23oz-japanese-selvedge-denim.webp"]) { height: 500px; }
+}
