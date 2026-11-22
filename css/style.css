@@ -940,3 +940,30 @@ button:focus-visible {
 .contact-details p{margin:0}.contact-details a{color:#f4f1e9;text-decoration:none;overflow-wrap:anywhere}.contact-details a:hover{text-decoration:underline;color:#d5bd91}
 .footer-links a{font-size:12px}
 @media(max-width:780px){.journey-grid,.business-grid{grid-template-columns:1fr}.section-heading{display:block}.section-heading>p{max-width:100%;margin-top:20px}.journey-item{padding:24px 0}.contact-details{min-height:200px;padding:28px}.hero-background img{object-position:55% center}.about-content p:not(.section-label),.journey-item p,.journey-heading>p:last-child,.business-info>p:not(.business-category),.section-heading>p,.brand-content>p:not(.section-label),.international-heading>p:last-child,.country-item p,.contact-grid>div:first-child>p:last-child{font-size:15px;line-height:1.75;text-align:left;hyphens:none}}
+
+/* Image display refinement — show full authentic product photographs */
+.business-image:has(img[src*="kansai-special-industrial-sewing-machine.webp"]) {
+    background: #f2f0eb;
+}
+.business-image img[src*="kansai-special-industrial-sewing-machine.webp"] {
+    object-fit: contain;
+    object-position: center center;
+    padding: 8px;
+}
+.brand-image:has(img[src*="mith-23oz-japanese-selvedge-denim.webp"]) {
+    background: #f7f5f1;
+}
+.brand-image img[src*="mith-23oz-japanese-selvedge-denim.webp"] {
+    object-fit: contain;
+    object-position: center center;
+}
+@media (max-width: 780px) {
+    .brand-image:has(img[src*="mith-23oz-japanese-selvedge-denim.webp"]) {
+        height: 430px;
+    }
+}
+@media (max-width: 480px) {
+    .brand-image:has(img[src*="mith-23oz-japanese-selvedge-denim.webp"]) {
+        height: 390px;
+    }
+}
